@@ -1,0 +1,53 @@
+body {
+  background-color: #f0f8ff;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+#form-section form,
+#consumoList,
+.campo-busca,
+#loading {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.list-group-item {
+  background-color: #ffffff;
+}
+
+.btn-custom {
+  min-width: 80px;
+}
+
+.campo-data {
+  width: 140px;
+}
+
+.campo-quantidade {
+  width: 100px;
+}
+
+.no-calendar-icon::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  display: none;
+}
+
+.btn-icon-only {
+  background: none;
+  border: none;
+  font-size: 22px;
+  padding: 0;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.btn-icon-only:hover {
+  opacity: 0.7;
+}
+
+.footer-espaco {
+  height: 80px;
+}
